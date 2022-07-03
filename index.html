@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
+    <title>Financial Omniverse</title>
+</head>
+<body>
+<!-- *** Nav Bar *** -->
+<nav class="navbar navbar-expand-lg">
+    <div class="container justify-content-start">
+        <div class="navbar-brand ms-lg-3">
+            <img src="images/logo3.png" alt="Financial Omniverse:Discover.Learn.Educate." width="300px;">
+        </div>
+        <div class="nav-item mx-2">
+            <a href="#" class="nav-link learnLink">Learn</a>
+        </div>
+        <div class="nav-item dropdown mx-4">
+            <a href="#" id="navbarDropdown"class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Analysis</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li class="dropdown-item">Financial Analysis</li>
+                <li><hr class="drodown-divider"></li>
+                <li class="dropdown-item">Technical Analaysis</li>
+            </ul>
+        </div>
+        <div class="searchArea col-3">
+            <form class="d-flex">
+                <input type="search" class="form-control" aria-label="Search">
+                <button class="btn searchBtn" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<!-- *** Main Body *** -->
+<div class="container bodyDiv d-flex">
+
+    <!-- *** Left Body *** -->
+    <div class="leftDiv col-lg-3 me-lg-2">
+        <img src="images/leftDiv.jpg" alt="" class="img-fluid">
+    </div>
+
+    <!-- *** Center Body *** -->
+    <div class="mainDiv col-lg-6">
+        <div class="primary-content d-flex">
+            <div class="left-content d-flex flex-column justify-content-center">
+                <h1 class="primary-content-headline m-2">Primary Headline</h1>
+                <p class="primary-content-text m-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero inventore tempore aut vero aliquid nobis dolorum, adipisci nisi iure non distinctio eum perferendis culpa optio aspernatur consequuntur minima delectus! Commodi!</p>
+                <button type="submit" class="btn btn-dark learnMore m-2 p-2">Learn More</button>
+            </div>
+            <img src="images/gradient.jpg" alt="" class="img-fluid p-2 m-lg-2" width="300px" srcset="">
+        </div>
+        <div class="secondary-content d-flex">
+            <div class="card m-lg-2">
+                <img src="images/card.jpg" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Content Related to the main to engage users.</p>
+                  <a href="#" class="btn btn-dark cardBtn">Go somewhere</a>
+                </div>
+              </div>
+              <div class="card m-lg-2">
+                <img src="images/card.jpg" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Content Related to the main to engage users.</p>
+                  <a href="#" class="btn btn-dark cardBtn">Go somewhere</a>
+                </div>
+              </div>
+              <div class="card m-lg-2">
+                <img src="images/card.jpg" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Content Related to the main to engage users.</p>
+                  <a href="#" class="btn btn-dark cardBtn">Go somewhere</a>
+                </div>
+              </div>
+        </div>
+    </div>  
+        
+
+    <!--*** Right Body *** -->
+    <div class="rightDiv col-lg-3 ms-2">
+        <div class="container callToAction d-flex flex-column align-items-center">
+            <h1>Email Subscription</h1>
+            <p id ="offerInfo" class="offerInfo">Get Latest Updates.</p>
+            <div class="input-group">
+                <input type="email" id="inputEmail" class="form-control" aria-label="Email" placeholder="Email Address">
+                <button type="submit" class="btn btn-dark">Submit</button>
+            </div>
+        </div>
+        <div class="container callToAction d-flex flex-column align-items-center my-lg-3">
+            <h1 class="ctaHeading">Product Title</h1>
+            <p class="ctaInfo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis recusandae vel eum, eos ab quaerat dignissimos voluptatum expedita, vero eligendi nisi? Quo recusandae nisi blanditiis, ad illum eius enim alias.</p>
+            <button type="submit" class="btn btn-dark">Learn More</button>
+        </div>
+        <div class="container callToAction d-flex flex-column align-items-center">
+            <h1 class="ctaHeading">Product Title</h1>
+            <p class="ctaInfo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis recusandae vel eum, eos ab quaerat dignissimos voluptatum expedita, vero eligendi nisi? Quo recusandae nisi blanditiis, ad illum eius enim alias.</p>
+            <button type="submit" class="btn btn-dark">Learn More</button>
+        </div>
+        
+        
+    </div>
+</div>
+
+<!-- *** Footer Section *** -->
+<div class="container-fluid aboutDiv d-flex col-lg-12 justify-content-lg-center">
+    <!-- *** Help Section *** -->
+    <div class="helpDiv d-flex flex-column">
+        <h1 class="footerHeading1">Help</h1>
+        <a href="#" class="help-items">Help Center</a>
+        <a href="#" class="help-items">Help Forum</a>   
+        <a href="#" class="help-items">Tutorials</a>
+    </div>
+    
+    <!-- *** Community Section *** -->
+    <div class="communityDiv d-flex flex-column">
+        <h1 class="footerHeading2">Community</h1>
+        <a href="#" class="discordLink">Discord</a>
+        <a href="#" class="telegramLink">Telegram</a>
+    </div>
+    
+    <!-- *** About Section *** -->
+    <div class="aboutUs d-flex flex-column">
+        <h1 class="footerHeading3">About</h1>
+        <a href="#" class="termsOfService">Terms of Service</a>
+        <a href="#" class="privacyPolicy">Privacy</a>
+        <a href="#" class="contentPolicy">Content Policy</a>
+    </div> 
+</div>
+
+</body>
+</html>
